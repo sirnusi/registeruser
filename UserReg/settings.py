@@ -129,14 +129,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SITE_ID = 1
+SITE_ID = 2
 LOGIN_REDIRECT_URL = 'home'
 
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
-            'client_id': '123',
-            'secret': '456',
+            'client_id': '738468398629-ral9bbi9gcgis0av9rt34nkeaj4kdqep.apps.googleusercontent.com',
+            'secret': 'DMMva9iGpgY9YAvICuxgzk1-',
             'key': ''
         }
     }
