@@ -132,6 +132,7 @@ STATIC_URL = '/static/'
 SITE_ID = 2
 LOGIN_REDIRECT_URL = 'home'
 
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
