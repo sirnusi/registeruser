@@ -130,8 +130,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SITE_ID = 2
+
+LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'login'
+LOGOUT_REDIRECT_URL = '/accounts/logout/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 SOCIALACCOUNT_PROVIDERS = {
